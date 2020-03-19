@@ -1,0 +1,18 @@
+=================
+subparser-example
+=================
+
+subparser-example [-h/--help] <command>
+
+Flags:
+------
+-h  --help          print this help message
+
+Positionals:
+------------
+command             [bar, foo]
+
+Subcommands:
+------------
+bar                 The bar command does bar
+foo                 The foo command does foo
