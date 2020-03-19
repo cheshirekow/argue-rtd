@@ -1,0 +1,19 @@
+==========
+argue-demo
+==========
+version: 0.1.3-dev5
+author : Josh Bialkowski <josh.bialkowski@gmail.com>
+copyright: (C) 2018
+
+argue-demo [-h/--help] [-v/--version] [-s/--sum] <N> [N..]
+
+Flags:
+------
+-h  --help          print this help message
+-v  --version       print version information and exit
+-s  --sum           sum the integers (default: find the max)
+
+Positionals:
+------------
+integer             an integer for the accumulator
+                    choices=[1, 2, 3, 4]

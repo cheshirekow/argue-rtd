@@ -1,0 +1,39 @@
+[
+{
+  "metadata": {
+    "id": "0x7ffc11b0cb40",
+    "name": "argue-demo",
+    "author": "Josh Bialkowski <josh.bialkowski@gmail.com>",
+    "copyright": "(C) 2018",
+    "prolog": "",
+    "epilog": "",
+    "comamnd_prefix": "",
+    "subdepth": 0,
+    "usage": "argue-demo [-h/--help] [-v/--version] [-s/--sum] <N> [N..]\n"
+  },
+  "flags": [
+    {
+      "short_flag": "-h",
+      "long_flag": "--help",
+      "help": "print this help message"
+    },
+    {
+      "short_flag": "-v",
+      "long_flag": "--version",
+      "help": "print version information and exit"
+    },
+    {
+      "short_flag": "-s",
+      "long_flag": "--sum",
+      "help": "sum the integers (default: find the max)"
+    }
+  ],
+  "positional": [
+    {
+      "name": "integer",
+      "help": "an integer for the accumulator\nchoices=[1, 2, 3, 4]"
+    }
+  ],
+  "subcommands": [
+]
+}]
