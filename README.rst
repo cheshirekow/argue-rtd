@@ -2,6 +2,12 @@
 argue
 =====
 
+.. image:: https://travis-ci.com/cheshirekow/argue.svg?branch=master
+    :target: https://travis-ci.com/cheshirekow/argue
+
+.. image:: https://readthedocs.org/projects/argue/badge/?version=latest
+    :target: https://argue.readthedocs.io
+
 ``argue`` is an argument parsing library for C++, largely inspired by
 python's ``argparse`` package.
 
